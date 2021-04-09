@@ -1,0 +1,5 @@
+.DS_Store
+*.ini
+*.sql
+public/assets/img_uploads/
+extra2.txt

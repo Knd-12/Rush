@@ -109,7 +109,7 @@ class Db {
             }
     
             // Check file size
-            $allowedFileSize = 1000000000; // in bytes This can be changed, also needs to be changed in php.ini
+            $allowedFileSize = 2000000000; // in bytes This can be changed, also needs to be changed in php.ini
             if ($_FILES[$inputNameAttr]["size"] > $allowedFileSize) {
     
                 $megabytesAllowed = $allowedFileSize / 1000000; //dont change this number
